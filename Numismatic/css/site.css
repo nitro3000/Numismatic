@@ -1,0 +1,457 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Arial,sans-serif;
+    position: relative;
+    background-color: ivory;
+}
+
+
+main {
+    background-image: url('../images/coins.jpg');
+    background-size: cover;
+    min-height: 800px;
+    display: grid;
+    border-radius: 8px;
+}
+
+.container {
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    margin-top: 500px;
+}
+
+#idLine {
+    min-width: 600px;
+    min-height: 60px;
+    background-color: forestgreen;
+    background-image: linear-gradient(forestgreen, darkgreen);
+    border-radius: 8px;
+    display: inline-flex;
+}
+
+#newLabel {
+    cursor: pointer;
+}
+
+#idParagraph {
+    margin: 40px 0 0 10px;
+}
+
+#getStarted:hover {
+    background-color: limegreen;
+    color: yellow;
+    font-weight: bold;
+    box-shadow: rgba(0,0,0,8) 10px;
+}
+
+#getStarted {
+    background-color: antiquewhite;
+    border: solid;
+    border-radius: 4px;
+    padding: 10px 14px;
+    text-align: center;
+    display: grid;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+#welcometop {
+    font-family: Verdana, Arial,sans-serif;
+    font-size: 500%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 100px;
+    background-color: rgba(54, 25, 25, 0.4);
+    border-radius:8px;
+}
+
+.welcomebot {
+    font-family: Verdana, Arial,sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#bodycatalog {
+    height: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-image: url(../images/coins.jpg);
+    color: gold;
+    font-size: 100%;
+    padding: 10px 10px 10px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 20px;
+    font-size: 12px;
+    font-style: italic;
+    background-color: ivory;
+    color: black;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: center;
+    margin: 10px;
+    width: auto;
+    border-radius: 8px;
+}
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 15px 20px;
+        text-decoration: wavy;
+        font-size: 17px;
+    }
+
+        .topnav a:hover {
+            background-color: ivory;
+            color: black;
+        }
+
+.about {
+    margin: auto;
+    background-color: rgb(8, 18, 130, 0.80);
+}
+    .about p {
+        font-family: Verdana, Arial,sans-serif;
+        font-display: block;
+        color: gold;
+        font-size: 200%;
+        padding: 10px 20px 10px 20px;
+       
+        
+    }
+.buy {
+    margin: auto;
+    background-color: rgb(8, 18, 130, 0.80);
+    border-radius: 8px;
+}
+
+    .buy p {
+        font-family: Verdana, Arial,sans-serif;
+        font-display: block;
+        color: gold;
+        font-size: 200%;
+        padding: 10px 20px 10px 20px;
+        
+    }
+.buy p a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.sell {
+    margin: auto;
+    background-color: rgb(8, 18, 130, 0.80);
+    border-radius: 8px;
+}
+
+    .sell p {
+        font-family: Verdana, Arial,sans-serif;
+        font-display: block;
+        color: gold;
+        font-size: 200%;
+        padding: 10px 20px 10px 20px;
+    }
+
+.sell p a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.swap {
+    margin: auto;
+    background-color: rgb(8, 18, 130, 0.80);
+    border-radius: 8px;
+}
+
+    .swap p {
+        font-family: Verdana, Arial,sans-serif;
+        font-display: block;
+        color: gold;
+        font-size: 200%;
+        padding: 10px 20px 10px 20px;
+    }
+
+.swap p a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.evaluate {
+    margin: auto;
+    background-color: rgb(8, 18, 130, 0.80);
+    border-radius: 8px;
+}
+
+    .evaluate p {
+        font-family: Verdana, Arial,sans-serif;
+        font-display: block;
+        color: gold;
+        font-size: 200%;
+        padding: 10px 20px 10px 20px;
+        text-decoration:none;
+    }
+    .evaluate p a {
+       
+        text-decoration: none;
+        color:yellow;
+    }
+
+.find {
+    margin: auto;
+    background-color: rgb(8, 18, 130, 0.80);
+    border-radius: 8px;
+}
+
+    .find p {
+        font-family: Verdana, Arial,sans-serif;
+        font-display: block;
+        color: gold;
+        font-size: 200%;
+        padding: 10px 20px 10px 20px;
+    }
+#findMyCoin {
+    background-color: lightgray;
+    font-family: Arial,sans-serif;
+    padding: 10px;
+  
+    display: block;
+  
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+#uploadbtn {
+    background-color: deepskyblue;
+    forced-color-adjust: inherit;
+    border-radius: 4px;
+}
+
+
+
+#wrapper {
+    background-color: #B3C7E6;
+    color: #000066;
+    width: 80%;
+    margin: auto;
+}
+
+#donate {
+    background-color: #EAEAEA;
+    font-family: Arial,sans-serif;
+    padding: 10px;
+    border-radius: 6px
+}
+
+    #donate input {
+        margin-top: 100px;
+        margin-right: 50px;
+        display: block;
+    }
+
+
+#contact {
+    background-color:lightgray;
+    font-family: Arial,sans-serif;
+    padding: 10px;
+}
+
+label {
+    float: left;
+    width: 100px;
+   
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+#mySubmit, #myReset {
+    margin-left: 110px;
+    display: block;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+#mySubmit {
+    background-color: deepskyblue;
+    forced-color-adjust: inherit;
+}
+
+#myEmail, #myName, #myComments {
+    margin-left: 110px;
+    display: block;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.row {
+    flex: 80%;
+
+    margin-bottom: 100px;
+}
+
+.column {
+    flex: 80%;
+    padding: 10px 30px;
+}
+
+    .column img {
+        margin:auto;
+        vertical-align:central;
+    }
+
+.coinBox {
+    width: 150px;
+    height: 250px;
+    background-color: forestgreen;
+    background-image: linear-gradient(forestgreen, darkgreen);
+    margin-bottom: 50px;
+    border-radius: 8px;
+    display: inline-table;
+    padding:0px;
+}
+
+    .coinBox a {
+        display: block;
+        color: wheat;
+        text-align: center;
+    }
+
+.coinDiscription {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+    .coinDiscription p {
+        color: aliceblue;
+    }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+    .dropdown .dropbtn {
+        font-size: 17px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+        
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+        .topnav.responsive a.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+
+        .topnav.responsive .dropdown {
+            float: none;
+        }
+
+        .topnav.responsive .dropdown-content {
+            position: relative;
+        }
+
+        .topnav.responsive .dropdown .dropbtn {
+            display: block;
+            width: 100%;
+            text-align: left;
+        }
+
+
+    #contact {
+        position: relative;
+        background-color: lightblue;
+    }
+
+    #label, #input {
+        position: relative;
+        float: none;
+       
+        text-align: center;
+        padding-right: 0px;
+        margin-bottom: 0px;
+
+    }
+}

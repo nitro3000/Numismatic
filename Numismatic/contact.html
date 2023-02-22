@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta description="Coins Collection Network." />
+    <title>Numismatic - Donate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/site.css" rel="stylesheet" type="text/css" />
+
+    <script src="JS/JavaScript.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Numismatic</h1>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="catalog.html">Catalog</a>
+        <div class="dropdown">
+            <button class="dropbtn">Trade <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="buy.html">Buy</a>
+                <a href="sell.html">Sell</a>
+                <a href="swap.html">Swap</a>
+            </div>
+        </div>
+        <a href="evaluate.html">Evaluate value</a>
+        <a href="find.html">Find by Picture</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <form id="donate" action="https://www.paypal.com/donate" method="post">
+        <!-- Identify your business so that you can collect the payments. -->
+        <input type="hidden" name="business" value="donations@kcparkfriends.org">
+        <!-- Specify details about the contribution -->
+        <input type="hidden" name="no_recurring" value="0">
+        <input type="hidden" name="item_name" value="Friends of the Park">
+        <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
+        <input type="hidden" name="currency_code" value="USD">
+        <!-- Display the payment button. -->
+        <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="donate">
+        <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" />
+    </form>
+    <div id="wrapper">
+        <h1>Contact Us</h1>
+        <form id="contact" method="post" action="Https://webdevbasics.net/scripts/demo.php">
+            <label for="myName">Name:</label>
+            <input type="text" name="myName" id="myName" placeholder="Enter your full name here..." />
+            <label for="myEmail">Email:</label>
+            <input type="text" name="myEmail" id="myEmail" placeholder="Enter your E-mail here..." />
+            <label for="myComments">Comments:</label>
+            <textarea name="myComments" id="myComments" rows="2" cols="20" placeholder="Enter your comments here..."></textarea>
+            <input type="submit" id="mySubmit" value="Submit" />
+            <input type="reset" id="myReset" value="Reset" />
+        </form>
+    </div>
+    <div class="footer">Copyright&copy;2022 @andreyfaigon, All rights reserved</div>
+</body>
+</html>
