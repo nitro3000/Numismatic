@@ -13,69 +13,9 @@ main {
     background-image: url('../images/coins.jpg');
     background-size: cover;
     min-height: 800px;
-    display: grid;
     border-radius: 8px;
 }
 
-.container {
-    width: 150px;
-    height: 100px;
-    margin: auto;
-    margin-top: 500px;
-}
-
-#idLine {
-    min-width: 600px;
-    min-height: 60px;
-    background-color: forestgreen;
-    background-image: linear-gradient(forestgreen, darkgreen);
-    border-radius: 8px;
-    display: inline-flex;
-}
-
-#newLabel {
-    cursor: pointer;
-}
-
-#idParagraph {
-    margin: 40px 0 0 10px;
-}
-
-#getStarted:hover {
-    background-color: limegreen;
-    color: yellow;
-    font-weight: bold;
-    box-shadow: rgba(0,0,0,8) 10px;
-}
-
-#getStarted {
-    background-color: antiquewhite;
-    border: solid;
-    border-radius: 4px;
-    padding: 10px 14px;
-    text-align: center;
-    display: grid;
-    margin: auto;
-    cursor: pointer;
-}
-
-
-#welcometop {
-    font-family: Verdana, Arial,sans-serif;
-    font-size: 500%;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    margin: 100px;
-    background-color: rgba(54, 25, 25, 0.4);
-    border-radius:8px;
-}
-
-.welcomebot {
-    font-family: Verdana, Arial,sans-serif;
-    color: white;
-    text-align: center;
-}
 
 #bodycatalog {
     height: 0px;

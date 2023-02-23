@@ -1,29 +1,85 @@
 ﻿
-#bodyhome {
-    height: 0px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .headerHome {
     font-family: Verdana, Arial,sans-serif;
 }
-.mainHome{
+.mainHome {
+    background-image: url(../images/coins.jpg);
+    color: gold;
+    font-size: 100%;
+    padding: 10px 10px 10px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.welcometop {
+    color: greenyellow;
+    font-size: 100%;
+    padding: 10px 10px 10px 20px;
+   
+    border-radius: 8px;
+    background-color: rgba(54, 25, 25, 0.4);
+    border-radius: 8px;
+}
+.welcomeMid{
 
 }
-.welcometop{
+    .welcomeMid ul {
 
+        list-style: square;
+        color: white;
+        text-align: center;
+    }
+@media screen and (max-width: 600px) {
+    .welcomeMid ul {
+        list-style-type: none;
+        
+    }
 }
-.welcomeMid.ul {
-    list-style-type: none;
+
+.welcomebot {
+  padding:20px;
+    color: white;
+    text-align: center;
 }
 
-
-
-
-.welcomebot{
-
+.container {
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    margin-top: 500px;
+}
+#idLine {
+    min-width: auto;
+    min-height: 60px;
+    background-color: forestgreen;
+    background-image: linear-gradient(forestgreen, darkgreen);
+    border-radius: 8px;
+    display: inline-flex;
 }
 
+#newLabel {
+    cursor: pointer;
+}
 
+#idParagraph {
+    margin: 40px 0 0 10px;
+}
+
+#getStarted:hover {
+    background-color: limegreen;
+    color: yellow;
+    font-weight: bold;
+    box-shadow: rgba(0,0,0,8) 10px;
+}
+
+#getStarted {
+    background-color: antiquewhite;
+    border: solid;
+    border-radius: 4px;
+    padding: 10px 14px;
+    text-align: center;
+    display: grid;
+    margin: auto;
+    cursor: pointer;
+}
